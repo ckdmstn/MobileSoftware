@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_diary"
+        android:onClick="onMenuClick"
+        android:title="다이어리 추가" />
+    <item
+        android:id="@+id/developer"
+        android:onClick="onMenuClick"
+        android:title="개발자 소개" />
+    <item
+        android:id="@+id/search"
+        android:onClick="onMenuClick"
+        android:title="날짜 검색" />
+    <item
+        android:id="@+id/exit"
+        android:onClick="onMenuClick"
+        android:title="앱 종료" />
+</menu>
